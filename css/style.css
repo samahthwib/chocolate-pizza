@@ -1,0 +1,175 @@
+/* @import url(https://fonts.googleapis.com/css?family=Pacifico&display=swap); */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,400,500,700&display=swap');
+
+body {
+margin: 0% 10% ;
+
+}
+
+h1 {
+    display: inline-block;
+    color: #19191a;
+    font-size: 29px;
+    font-family: Raleway;
+    font-style: italic;
+}
+
+h6 {
+    font-size: 12px;
+    padding-top: 6px;
+    color: #474648;
+}
+
+
+.my-header {
+    background-color: #ffffff;    
+    padding: 22px 0px;
+    position: sticky;
+    top: 0;
+    height: 93px;
+    border-color: rgba(171, 171, 172, 0.22);
+    border-bottom-style: solid;
+    border-width: 19px;
+
+}
+  
+    .icon-bar {
+        width: 100%;
+        display: inline;
+        background-color: #555;
+       
+    }
+      
+      .icon-bar a {
+        margin: -18px 0px 3px 4px;
+        float: right;
+        clear: left;
+        width: 1%;
+        text-align: center;
+        padding: 8px;
+        padding: -2px 0;
+        /* transition: all 0.3s ease; */
+        color: white;
+        font-size: 18px;
+       
+      }
+
+
+      .icon-bar a:hover {
+        background-color: #000;
+      }
+      
+      .facebook {
+        background: #474648;
+       
+      }
+      
+      .twitter {
+        background: #474648;
+        
+      }
+      
+      .google {
+        background: #474648;
+      
+      }
+      
+      .linkedin {
+        background: #474648;
+       
+      }
+      
+      .youtube {
+        background: #474648;
+       
+      }
+      
+
+      img {
+        float: left;
+        margin-right: 1%;
+    }
+
+
+    h1.title {
+        display: inline;
+    }
+
+    
+
+    h2 {
+        font-size: 47px;
+        font-family: fantasy;
+        margin-top: 5%;
+        margin-bottom: 7px;
+        display: block;
+    }
+
+    p.text2 {
+        font-size: 16px;
+        color: #a59b9b;
+        float: left;
+       clear: left;
+    }
+
+    p.print2 {
+        display: inline-block;
+        color: #a59b9b;
+        float: right;
+        clear: right;
+        font-size: 16px;
+    }
+
+    img.print {
+        float: right;
+        width: 17px;
+        /* clear: left; */
+    }
+
+    section.section3 {
+        display: block;
+        font-size: 23px;
+    font-family: none;
+
+    }
+
+    img.cake {
+        width: 100%;
+        margin: 25px 0;
+    }
+
+    section.text {
+        /* margin-top: 41%; */
+        font-size: 28px;
+        font-family: none;
+        line-height: 35px;
+    }
+
+    p.p1 {
+        margin-top: 3%;
+        color : #333232;
+        font-weight: 100;
+    }
+
+    p.print3 {
+        float: right;
+        font-size: 16px;
+        color: #a59b9b;
+    }
+    form.form1 {
+        display: inline-block;
+        font-size: 33px;
+        font-family: cursive;
+
+    }
+    form.form2 {
+        display: inline-block;
+        font-size: 33px;
+        font-family: cursive;
+    }
+    div.checklist{
+        background-image: url(https://raw.githubusercontent.com/LTUC/amman-201d3/master/class-10/lab-a/lab-assets/list-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
