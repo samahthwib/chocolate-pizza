@@ -1,24 +1,26 @@
-/* @import url(https://fonts.googleapis.com/css?family=Pacifico&display=swap); */
-
-@import url('https://fonts.googleapis.com/css?family=Raleway:200,400,500,700&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Yellowtail&display=swap); 
+@import url(https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap); 
 
 body {
 margin: 0% 10% ;
 
 }
 
-h1 {
+.title {
     display: inline-block;
     color: #19191a;
-    font-size: 29px;
-    font-family: Raleway;
+    font-size: 38px;
+    font-family: Yellowtail;
     font-style: italic;
+    font-weight: 800;
 }
 
-h6 {
+.below-title {
     font-size: 12px;
     padding-top: 6px;
     color: #474648;
+    display: inline;
+    /* float: left; */
 }
 
 
@@ -27,33 +29,25 @@ h6 {
     padding: 22px 0px;
     position: sticky;
     top: 0;
-    height: 93px;
+    height: 78px;
     border-color: rgba(171, 171, 172, 0.22);
     border-bottom-style: solid;
     border-width: 19px;
 
 }
   
-    .icon-bar {
-        width: 100%;
-        display: inline;
-        background-color: #555;
-       
-    }
-      
-      .icon-bar a {
-        margin: -18px 0px 3px 4px;
-        float: right;
-        clear: left;
-        width: 1%;
-        text-align: center;
-        padding: 8px;
-        padding: -2px 0;
-        /* transition: all 0.3s ease; */
-        color: white;
-        font-size: 18px;
-       
-      }
+.icon-bar {
+    margin-top: -2%;
+    background-color: rgb(255, 255, 255);
+    float: right;
+    clear: right;
+}
+.icon-bar a {
+    /* margin: -13px 0px 3px 4px; */
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
 
 
       .icon-bar a:hover {
@@ -70,33 +64,41 @@ h6 {
         
       }
       
-      .google {
+      .g-plus {
         background: #474648;
       
       }
       
-      .linkedin {
-        background: #474648;
-       
-      }
-      
-      .youtube {
+      .instagram {
         background: #474648;
        
       }
       
+      .flicker {
+        background: #474648;
+       
+      }
 
+      .pinterest {
+        margin-right: 11px;
+        background: #474648;
+       
+      }
+      
+      .envelope {
+        background: #474648;
+       
+      }
+
+      .wifi {
+        background: #474648;
+       
+      }
       img {
         float: left;
         margin-right: 1%;
     }
 
-
-    h1.title {
-        display: inline;
-    }
-
-    
 
     h2 {
         font-size: 47px;
@@ -159,17 +161,90 @@ h6 {
     }
     form.form1 {
         display: inline-block;
-        font-size: 33px;
-        font-family: cursive;
+    font-size: 35px;
+    font-family: 'Patrick Hand';
+    margin-right: 26%;
+    line-height: 50px;
+
 
     }
     form.form2 {
         display: inline-block;
-        font-size: 33px;
-        font-family: cursive;
+        font-size: 35px;
+        font-family: 'Patrick Hand';
+        line-height: 50px;
     }
     div.checklist{
         background-image: url(https://raw.githubusercontent.com/LTUC/amman-201d3/master/class-10/lab-a/lab-assets/list-bg.png);
         background-repeat: no-repeat;
         background-size: cover;
+        padding: 62px 0 0 79px;
+        margin: 4% 0 7% 0;
+
     }
+.checked{
+    text-decoration: line-through;
+}
+.myButton {
+    background-color: #c3432d;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 22px;
+    padding: 27px 23px;
+    text-decoration: none;
+    float: right;
+    clear: right;
+    width: 16%;
+    height: 18px;
+    text-align: center;
+    margin-top: -2%;
+    margin-bottom: 2%;
+}
+img.vanessa {
+    float: left;
+    margin-right: 2%;
+    clear: left;
+}
+h4 {
+    font-size: 30px;
+    font-weight: bolder;
+    display: table-cell;
+    color : #333232;
+}
+p.van-text {
+    font-size: 23px;
+    display: inline-block;
+    width: 711px;
+    padding-top: 1%;
+    color : #333232;
+}
+.van-section{
+    border-color: rgba(171, 171, 172, 0.22);
+    border-top-style: solid;
+    
+    padding-top: 3%;
+    margin-bottom: 10%;
+    border-bottom-style: solid;
+}
+p.foot-text {
+    text-align: center;
+    color: #bdbdbd;
+    line-height: 24px;
+}
+footer {
+    border-color: rgba(171, 171, 172, 0.22);
+    /* border-top-style: solid; */
+    border-width: 2px;
+    padding-top: 55px;
+    padding-bottom: 70px;
+    font-size: 22px;
+    border-top-style: solid; 
+}
+
+img.the-logo {
+    margin-left: 48%;
+    margin-top: -2%;
+    
+}
